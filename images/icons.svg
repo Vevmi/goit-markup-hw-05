@@ -43,5 +43,8 @@
     <symbol id="icon-email" viewBox="0 0 24 32">
       <path d="M20 8H4c-1.1 0-1.99.9-1.99 2L2 22c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-.4 4.25-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 12.25a.85.85 0 1 1 .9-1.44L12 15l6.7-4.19a.85.85 0 1 1 .9 1.44z"/>
     </symbol>
+    <symbol id="icon-Checkbox" viewBox="0 0 32 32">
+      <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M4 1h24c1.657 0 3 1.343 3 3v24c0 1.657-1.343 3-3 3h-24c-1.657 0-3-1.343-3-3v-24c0-1.657 1.343-3 3-3z"></path>
+    </symbol>
   </defs>
 </svg>
