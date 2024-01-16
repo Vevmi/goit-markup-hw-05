@@ -702,9 +702,7 @@ footer {
 .privacy-policy {
   color: #4d5ae5;
 }
-.checked {
 
-}
 .privacy-check:checked {
   background-color: #404bbf;
   border: none;
