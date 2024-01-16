@@ -593,6 +593,7 @@ footer {
 .modal-close-btn:focus {
   background-color: #404bbf;
   fill: #ffffff;
+  border: none;
 }
 
 .modal-text {
