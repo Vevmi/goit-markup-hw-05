@@ -666,6 +666,7 @@ footer {
   padding: 8px 16px;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
 }
 .modal-textarea:focus {
   border-radius: 4px;
@@ -708,4 +709,7 @@ footer {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
+}
+.form-wrapper-textarea {
+  margin-bottom: 16px;
 }
