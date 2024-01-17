@@ -774,7 +774,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px;
 }
 .footer-label {
-  
+
 }
 
 .footer-email-input {
@@ -808,9 +808,15 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   color: #FFF;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+
+  min-width: 165px;
+}
+.plane {
+  margin-left: 16px;
 }
