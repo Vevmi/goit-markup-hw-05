@@ -472,32 +472,37 @@
           </div>
           <div class="form-wrapper-textarea">
             <label class="modal-form-label" for="user-comment">Comment</label>
-              <textarea
-                class="modal-textarea"
-                placeholder="Text input"
-                name="user-comment"
-                id="user-comment"
-                cols="30"
-                rows="10"
-              ></textarea>
+            <textarea
+              class="modal-textarea"
+              placeholder="Text input"
+              name="user-comment"
+              id="user-comment"
+              cols="30"
+              rows="10"
+            ></textarea>
           </div>
           <div class="privacy-wrapper">
-            <label for="user-privacy"></label>
-              <input
-                class="privacy-check visually-hidden"
-                type="checkbox"
-                value="true"
-                name="user-privacy"
-                id="user-privacy"
-              />
-              <label class="privacy-policy-check" for="user-privacy"
-                ><span class="modal-span"
+            <input
+              class="input-checkbox visually-hidden"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              id="user-privacy"
+            />
+            <label class="label-checkbox" for="user-privacy"
+              ><span class="custom-checkbox"
                 ><svg class="checked" width="10" height="8">
-                  <use href="./images/icons.svg#icons-checked"></use></svg>
-              </span>I accept the terms and conditions of the
-                <a href="" class="privacy-policy">Privacy Policy</a>
-              </label>
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg> </span
+              >I accept the terms and conditions of the&nbsp;<a
+                href=""
+                target="_blank"
+                class="privacy-policy"
+                >Privacy Policy</a
+              >
+            </label>
           </div>
+          <button class="form-submit-button">Send</button>
         </form>
       </div>
     </div>
