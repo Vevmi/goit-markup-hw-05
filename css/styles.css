@@ -703,49 +703,55 @@ footer {
 }
 .custom-checkbox {
   display: inline-flex;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   justify-content: center;
   align-items: center;
 
-  border-radius: 6px;
+  fill: transparent;
+
+  border-radius: 2px;
   border: 1px solid rgba(17, 17, 17, 0.14);
 
   margin-right: 12px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-checkbox:checked + .label-checkbox > .custom-checkbox {
   border: none;
   background-color: #404bbf;
+  fill: #f4f4fd;
 }
 
 .form-submit-button {
-  margin-left: 96px;
-  margin-right: 96px;
-  width: 169px;
-  height: 56px;
-  padding: 16px 32px;
-  background-color: #4d5ae5;
+margin-left: 96px;
+margin-right: 96px;
+min-width: 169px;
+height: 56px;
+padding: 16px 32px;
+background-color: #4d5ae5;
 
-  color: #fff;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  display: block;
-  outline: transparent;
-  border: none;
+color: #fff;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+display: block;
+outline: transparent;
+border: none;
 
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
-  cursor: pointer;
+cursor: pointer;
 
-  transition: background-color 300ms ease;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-submit-button:focus,
 .form-submit-button:hover {
-    background-color:  #404BBF;
+  background-color: #404bbf;
 }
