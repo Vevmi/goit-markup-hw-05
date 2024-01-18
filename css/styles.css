@@ -734,7 +734,7 @@ background-color: #4d5ae5;
 
 color: #fff;
 text-align: center;
-font-family: "Roboto", sans-serif
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -814,7 +814,4 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 
   min-width: 165px;
-}
-.plane {
-  margin-left: 16px;
 }
